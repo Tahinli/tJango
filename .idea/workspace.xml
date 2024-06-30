@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4bf3f98-d5b7-4d99-9ccf-5a322ed50222" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tJango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tJango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tJango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tJango/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="b4bf3f98-d5b7-4d99-9ccf-5a322ed50222" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +93,7 @@
       <updated>1719511805110</updated>
       <workItem from="1719511812328" duration="309000" />
       <workItem from="1719512143097" duration="830000" />
-      <workItem from="1719617813873" duration="422000" />
+      <workItem from="1719617813873" duration="1051000" />
     </task>
     <servers />
   </component>

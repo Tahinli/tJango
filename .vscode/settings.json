@@ -3,6 +3,7 @@
     "python.analysis.indexing": true,
     "python.analysis.packageIndexDepths":[["rest_framework", 5, true]],
     "cSpell.words": [
+        "authtoken",
         "viewsets"
     ]
 }
