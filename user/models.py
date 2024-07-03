@@ -7,10 +7,3 @@ class User(models.Model):
 
     def __str__(self):
         return self.username
-
-class Token(models.Model):
-    username = models.ForeignKey(User, on_delete=models.CASCADE, related_name='Token')
-    token = models.CharField(max_length=16)
-
-    def __str__(self):
-        return str(self.username)
