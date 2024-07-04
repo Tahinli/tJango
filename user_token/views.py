@@ -1,16 +1,10 @@
 from rest_framework.viewsets import ReadOnlyModelViewSet
-
-# from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from tJango import permissions as tJango_permissions
 from .models import UserToken
 from .serializers import UserTokenSerializer
 
 
-class UserViewSet(ReadOnlyModelViewSet):
+class UserTokenViewSet(ReadOnlyModelViewSet):
     queryset = UserToken.objects.all()
     serializer_class = UserTokenSerializer
-    # permission_classes = [IsAuthenticatedOrReadOnly]
-
-
-class TokenValidation:
-    def check_token(value):
-        return UserToken.objects.filter(token=value)
+    permission_classes = [tJango_permissions.IsOwnerOrIsAdminOrHasToken]
