@@ -126,6 +126,7 @@ celerybeat.pid
 .env
 .venv
 .ruff_cache/
+pyrightconfig.json
 env/
 venv/
 ENV/
